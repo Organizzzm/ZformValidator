@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Form validator</title>
+    <style>
+    form * {
+        display: block;
+        margin-bottom: 10px;
+    }
+    input{
+    	border: 1px solid #c2c2c2;
+    }
+    .rerror{
+    	border: 1px solid red;
+    }
+    .success{
+    	border-color: lightgreen
+    }
+    .error{
+    	border-color: red
+    }
+    </style>
+</head>
+
+<body>
+    <form action="#">
+        <input type="text" name="name" placeholder="name">
+        <input type="email" name="email" placeholder="email">
+        <input type="phone" name="phone" placeholder="phone">
+        <select name="select">
+            <option value="1">1 value</option>
+            <option value="2">2 value</option>
+            <option value="3">3 value</option>
+            <option value="4">4 value</option>
+            <option value="5">5 value</option>
+            <option value="6">6 value</option>
+            <option value="7">7 value</option>
+            <option value="8">8 value</option>
+        </select>
+        <textarea name="text" id="id" cols="30" rows="10"></textarea>
+        <button>Проверить</button>
+    </form>
+    <script src="js.js"></script>
+</body>
+
+</html>
